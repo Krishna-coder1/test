@@ -4,11 +4,14 @@ import instance from "../axios";
 import FilterMenu from "../components/FilterMenu";
 
 function Home() {
- 
   return (
     <>
-      <div>This is the home page</div>
-      <FilterMenu />
+      <div>
+        <h2 className=" text-white  text-center h-32 align-baseline pt-8 text-4xl bg-gradient-to-tr from-zinc-900 to-stone-700 ">
+          E-Commerce Page
+        </h2>
+        <FilterMenu />
+      </div>
     </>
   );
 }
